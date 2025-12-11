@@ -1,7 +1,5 @@
 import { CTAButton } from '../components/CTAButton';
-import ShaderBackground from '../components/ui/shader-background';
 
-// WebGL Animated Background - v1.0
 const Section1Hero = () => {
   const scrollToNextSection = () => {
     window.scrollTo({
@@ -11,9 +9,8 @@ const Section1Hero = () => {
   };
 
   return (
-    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center px-6 md:px-20 pt-20 pb-16 md:py-20 relative overflow-hidden">
-      {/* Background Animado - WebGL Canvas */}
-      <ShaderBackground position="absolute" />
+    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center px-6 md:px-20 pt-20 pb-16 md:py-20 relative overflow-hidden bg-gradient-to-br from-[#111111] via-[#191919] to-[#111111] grain-effect">
+      {/* Background: Gradiente sutil preto/grafite com textura pixelada */}
 
       <div className="max-w-content mx-auto flex flex-col items-center text-center relative z-10">
         {/* Headline principal */}
