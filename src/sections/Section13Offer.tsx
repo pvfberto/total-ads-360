@@ -1,11 +1,7 @@
 import { motion } from 'framer-motion';
 import { CTAButton } from '../components/CTAButton';
-import { CountdownTimer } from '../components/CountdownTimer';
 
 const Section13Offer = () => {
-  // Set target date to 7 days from now for Black Friday countdown
-  const targetDate = new Date();
-  targetDate.setDate(targetDate.getDate() + 7);
 
   return (
     <section id="oferta" className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
@@ -40,7 +36,7 @@ const Section13Offer = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-5xl font-black text-[#FF5C00] text-center mb-10 md:mb-16 animate-pulse-subtle"
         >
-          🔥 Oferta Especial Black Friday
+          🔥 Oferta Especial Para Iniciar 2026 Com Performance Máxima
         </motion.h2>
 
         {/* Box de Preço */}
@@ -60,15 +56,9 @@ const Section13Offer = () => {
           <p className="text-4xl font-semibold mb-4">12x de R$36,19</p>
 
           {/* Preço à vista */}
-          <p className="text-5xl md:text-6xl font-black text-[#FF5C00] mb-10 animate-pulse-subtle">
+          <p className="text-5xl md:text-6xl font-black text-[#FF5C00] animate-pulse-subtle">
             ou R$352,00 à vista
           </p>
-
-          {/* Contador */}
-          <div className="backdrop-blur-md bg-[#00C853]/10 border-2 border-[#00C853]/40 rounded-xl p-4 md:p-6 lg:p-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,200,83,0.15)]">
-            <p className="text-xl md:text-2xl font-bold mb-4 md:mb-6">⏰ ESSA OFERTA TERMINA EM:</p>
-            <CountdownTimer targetDate={targetDate} />
-          </div>
         </motion.div>
 
         {/* CTA Button */}
@@ -82,7 +72,7 @@ const Section13Offer = () => {
             🚀 QUERO DOMINAR O MÉTODO EM-SA® AGORA
           </CTAButton>
           <p className="text-base italic text-[rgba(243,239,224,0.7)] mt-4">
-            (Oferta de Black Friday - Por tempo limitado)
+            Desconto Disponível Por Tempo Limitado
           </p>
         </motion.div>
       </div>

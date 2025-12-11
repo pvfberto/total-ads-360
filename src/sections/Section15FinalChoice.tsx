@@ -81,7 +81,7 @@ const Section15FinalChoice = () => {
             🚀 QUERO DOMINAR O MÉTODO EM-SA® AGORA
           </CTAButton>
           <p className="text-base italic text-[rgba(243,239,224,0.7)] mt-4">
-            (Oferta de Black Friday - Por tempo limitado)
+            Desconto Disponível Por Tempo Limitado
           </p>
         </motion.div>
 
@@ -99,9 +99,9 @@ const Section15FinalChoice = () => {
               Garantia de 15 dias. Zero risco. Clique agora e transforme seus anúncios.
             </p>
             <p>
-              <strong>P.P.S.:</strong> Esta oferta de Black Friday não volta depois. Quando a promoção acabar,
+              <strong>P.P.S.:</strong> Esta oferta Especial não voltará depois. Quando a promoção acabar,
               o preço volta para R$639. E você vai se arrepender de não ter aproveitado
-              quando teve a chance. Não deixe para depois. Clique no botão agora.
+              quando teve a chance. Clique no botão e aproveite agora.
             </p>
           </div>
         </motion.div>
